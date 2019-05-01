@@ -62,5 +62,110 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* new code here */
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {border: 1px solid grey;
+	width: 75%;
+padding: 20px;
+margin: 0 auto;}
+
+nav {display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;}
+
+.logo {display: flex;
+justify-content: flex-end;}
+
+.slogan {display: flex;
+justify-content: space-around;
+align-content: flex-start;
+}
+
+a {text-decoration: none;
+color: grey}
+
+h1 {font-size: 100px;
+justify-content: center;}
+
+h3 {font-size: 25px;}
+
+button {font-size:20px;}
+
+.services-header-img {Display: block;
+	margin: 0 auto;
+padding-top: 40px;}
+
+.top-box {display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+border-top: 2px solid Black;
+padding-top: 5px;
+padding-bottom: 15px;
+margin-top: 25px;
+}
+
+.middle-img {display: flex;
+	align-content: stretch;
+	margin: 0 auto;}
+
+.bottom-box {display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 2px solid Black;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	}
+
+.servicesbutton {display: flex;
+	font-size: 10px;
+background-color: white;
+justify-content: center;
+align-content: flex-start;
+height: 20px;
+width: 100px;
+border: 1px solid Black;
+border-radius: 5px;
+margin: 25px;}
+
+.copyright {display: flex;
+	justify-content: center;
+margin-top: 50px;}
+
+.facts {list-style: square; color: black;
+	padding-top: 25px;
+margin-left: 25px;
+line-height: 25pt;}
+
+.content-boxes {display: flex;
+	background-color:Gainsboro;
+	border: 1px solid black;
+	flex-direction: column;
+	flex=wrap: wrap;
+	margin: 20px;
+	padding: 25px;
+	width: 50%;	}
+
+.teaser {display: flex;
+align-content: flex-end;}
+
+.bottom-content {display: flex;
+border-top: 1px solid black;
+padding-top: 40px;
+margin-top: 30px;
+margin-left: 25px;}
+
+.bottom-left {display: flex;
+	flex-direction: column;
+justify-content: flex-start; }
+
+.bottom-right: {display:flex;
+justify-content: flex-end;
+flex-direction: column;
+}
+
+.main-content {Padding-bottom: 40px;
+Border-bottom: 1px solid black;
+margin-bottom: 30px;
+margin-top: 30px;}
